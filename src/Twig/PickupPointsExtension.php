@@ -57,7 +57,7 @@ final class PickupPointsExtension extends AbstractExtension
         return $this->searchPickupPointService->byCartAddress($shippingAddress);
     }
 
-    public function getTypeName(string $type): string
+    public function getTypeName(string|null $type): string
     {
         switch ($type) {
             case PickupPointType::A2P:
