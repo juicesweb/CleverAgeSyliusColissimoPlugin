@@ -1,5 +1,5 @@
 {
-    "name": "cleverage/sylius-colissimo-plugin",
+    "name": "juicesweb/sylius-colissimo-plugin",
     "type": "sylius-plugin",
     "description": "Colissimo plugin for Sylius.",
     "authors": [
